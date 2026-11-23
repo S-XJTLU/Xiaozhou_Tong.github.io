@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xiaozhou Tong | Data Science &amp; Big Data Technology</title>
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="#" class="brand">Xiaozhou Tong</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#courses">Coursework</a></li>
+        <li><a href="assets/CV.pdf" target="_blank" rel="noopener" class="nav-cv-btn">Download CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero / Profile Section -->
+    <section class="hero-section" id="about">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="badge">Year 3 Undergraduate &bull; Junior</span>
+          <h1>Xiaozhou Tong</h1>
+          <p class="programme-title">
+            BEng Data Science and Big Data Technology with Contemporary Entrepreneurialism
+          </p>
+          <p class="university-info">
+            Xi'an Jiaotong-Liverpool University (XJTLU) &mdash; Taicang Campus (TC)
+          </p>
+          <p class="bio-summary">
+            I am a third-year undergraduate student at XJTLU Taicang Campus specializing in data science, database systems, and distributed computing combined with contemporary entrepreneurial practice.
+          </p>
+          <div class="hero-actions">
+            <a href="assets/CV.pdf" target="_blank" rel="noopener" class="btn btn-primary">View / Download CV (PDF)</a>
+            <a href="#courses" class="btn btn-secondary">Explore Coursework</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img src="assets/photo.jpg" alt="Xiaozhou Tong" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="photo-fallback" style="display: none;">XT</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="edu-card">
+          <div class="edu-card-header">
+            <div>
+              <h3>Xi'an Jiaotong-Liverpool University (XJTLU)</h3>
+              <p class="edu-campus">Suzhou Taicang Campus (TC)</p>
+            </div>
+            <span class="edu-year">Junior (Year 3)</span>
+          </div>
+          <p class="edu-degree">
+            <strong>Programme:</strong> BEng Data Science and Big Data Technology with Contemporary Entrepreneurialism
+          </p>
+          <p class="edu-desc">
+            An interdisciplinary programme integrating core data science methodologies, database engineering, distributed systems, and industry-oriented entrepreneurial training at XJTLU's Taicang Campus.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Coursework Section -->
+    <section class="section" id="courses">
+      <div class="container">
+        <div class="section-header-row">
+          <div>
+            <h2 class="section-title">Core Coursework</h2>
+            <p class="section-subtitle">Key modules completed and in progress during my undergraduate studies.</p>
+          </div>
+          <div class="filter-controls" role="group" aria-label="Filter courses by subject">
+            <button class="filter-btn active" data-filter="all">All Modules</button>
+            <button class="filter-btn" data-filter="database">Database</button>
+            <button class="filter-btn" data-filter="systems">Networking &amp; Systems</button>
+          </div>
+        </div>
+
+        <div class="course-grid" id="courseGrid">
+          <article class="course-card" data-category="database">
+            <div class="course-code">DTS106</div>
+            <h3>Introduction to Database</h3>
+            <p>
+              Covers fundamental concepts of database management systems, relational algebra, Entity-Relationship (ER) modeling, normalization, and structured query language (SQL).
+            </p>
+            <span class="course-tag">Data &amp; Database</span>
+          </article>
+
+          <article class="course-card" data-category="systems">
+            <div class="course-code">CSI205</div>
+            <h3>Networking and Distributed Systems</h3>
+            <p>
+              Explores computer network architectures, communication protocols, distributed computing principles, inter-process communication, and system scalability.
+            </p>
+            <span class="course-tag">Computer Systems</span>
+          </article>
+
+          <article class="course-card" data-category="database">
+            <div class="course-code">SOE206</div>
+            <h3>Database Development and Design</h3>
+            <p>
+              Focuses on end-to-end database engineering, logical and physical schema design, indexing strategies, transaction concurrency, and application integration.
+            </p>
+            <span class="course-tag">Software &amp; Data Engineering</span>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="currentYear"></span> Xiaozhou Tong. XJTLU Taicang Campus (TC).</p>
+      <p><a href="assets/CV.pdf" target="_blank" rel="noopener">Curriculum Vitae (PDF)</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
