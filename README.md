@@ -1,19 +1,17 @@
-Xiaozhou Tong — Personal Academic Website
+# Xiaozhou Tong — Personal Academic Website
 
 Personal portfolio and academic profile hosted on GitHub Pages.
 
-About
+## About
 
-Name: Xiaozhou Tong
+- **Name:** Xiaozhou Tong
+- **University:** Xi'an Jiaotong-Liverpool University (XJTLU) — Suzhou Taicang Campus (TC)
+- **Programme:** BEng Data Science and Big Data Technology with Contemporary Entrepreneurialism
+- **Year of Study:** Year 3 Undergraduate (Junior)
 
-University: Xi'an Jiaotong-Liverpool University (XJTLU) — Suzhou Taicang Campus (TC)
+## Directory Structure
 
-Programme: BEng Data Science and Big Data Technology with Contemporary Entrepreneurialism
-
-Year of Study: Year 3 Undergraduate (Junior)
-
-Directory Structure
-
+```text
 yourusername.github.io/
 ├── index.html
 ├── css/
@@ -25,12 +23,10 @@ yourusername.github.io/
 │   ├── photo.jpg
 │   └── favicon.ico
 └── README.md
+```
 
+## Featured Coursework
 
-Featured Coursework
-
-DTS106: Introduction to Database
-
-CSI205: Networking and Distributed Systems
-
-SOE206: Database Development and Design
+- **DTS106:** Introduction to Database
+- **CSI205:** Networking and Distributed Systems
+- **SOE206:** Database Development and Design
