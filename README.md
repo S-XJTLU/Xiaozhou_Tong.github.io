@@ -19,8 +19,7 @@ Xiaozhou_Tong.github.io/
 ├── js/
 │   └── main.js
 ├── assets/
-│   ├── CV.pdf
-│   └── photo.jpg
+│   └── CV.pdf
 └── README.md
 ```
 
