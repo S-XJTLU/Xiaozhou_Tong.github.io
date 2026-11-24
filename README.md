@@ -12,7 +12,7 @@ Personal portfolio and academic profile hosted on GitHub Pages.
 ## Directory Structure
 
 ```text
-yourusername.github.io/
+Xiaozhou_Tong.github.io/
 ├── index.html
 ├── css/
 │   └── style.css
@@ -20,8 +20,7 @@ yourusername.github.io/
 │   └── main.js
 ├── assets/
 │   ├── CV.pdf
-│   ├── photo.jpg
-│   └── favicon.ico
+│   └── photo.jpg
 └── README.md
 ```
 
